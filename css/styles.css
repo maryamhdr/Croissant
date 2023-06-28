@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 0;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+a {
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 16px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid blueviolet;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.email-link {
+    color: crimson;
+    font-size: 20px;
+}
